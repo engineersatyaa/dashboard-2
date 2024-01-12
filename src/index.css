@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --mainColor: #0437f2;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* custom CSS for "react-circular-progressbar" */
+.CircularProgressbar {
+  width: 75%;
+}
+
+@media (max-width: 320px) {
+  .CircularProgressbar {
+    width: 60%;
+  }
+}
