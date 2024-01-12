@@ -7,12 +7,12 @@ import "./index.css";
 
 const router = createBrowserRouter([
   {
-    path: "/dashboard-2",
+    path: "/dashboard-2/",
     element: <App />,
 
     children: [
       {
-        path: "/dashboard-2/home",
+        path: "/dashboard-2/",
         element: <Home />,
       },
 

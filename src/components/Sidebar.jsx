@@ -10,7 +10,7 @@ const navList = [
   {
     name: "Home",
     icon: <GrHomeRounded size={20} />,
-    link: "/dashboard-2/home",
+    link: "/dashboard-2/",
   },
   {
     name: "Details",

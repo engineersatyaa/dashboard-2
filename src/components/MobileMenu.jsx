@@ -8,7 +8,7 @@ const menuList = [
   {
     name: "Home",
     icon: <GrHomeRounded size={18} />,
-    link: "/dashboard-2/home",
+    link: "/dashboard-2/",
   },
   {
     name: "Details",
