@@ -433,11 +433,11 @@ const Home = () => {
             <hr className="border-b-[1px] border-gray-200 hidden xl:block" />
 
             <div className="flex flex-col gap-3">
-              <div className="flex items-center justify-between font-semibold text-sm xl:text-base">
+              <div className="flex items-center justify-between gap-3 font-semibold text-sm xl:text-base">
                 <span> Employer Contribution</span>
                 <span>8.4%</span>
               </div>
-              <div className="flex items-center justify-between font-semibold text-sm xl:text-base">
+              <div className="flex items-center justify-between gap-3 font-semibold text-sm xl:text-base">
                 <span>Interest Rate</span>
                 <span>5%</span>
               </div>
